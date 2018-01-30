@@ -18,7 +18,7 @@ RUN apt-get update \
     postgis=$POSTGIS_VERSION
 
 # Setup 3DCityDB ##############################################################
-ARG citydb_version=3.3.1
+ARG citydb_version=3.1.0
 ENV CITYDBVERSION=${citydb_version}
 ARG citydb_default_db_name="citydb"
 ENV CITYDBNAME=${citydb_default_db_name}
